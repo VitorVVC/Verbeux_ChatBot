@@ -1,0 +1,17 @@
+# Ignorar a pasta node_modules/
+node_modules/
+
+# Ignorar o arquivo .env
+.env
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de bloqueio
+*.lock
+
+# Ignorar o arquivo rembember.md
+remember.md
+
+# Ignorar o arquivo fluxoTry.js
+fluxoTry.js
