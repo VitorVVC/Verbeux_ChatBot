@@ -15,8 +15,8 @@ const headers = { 'Api-Key': apiKey, 'Content-Type': 'application/json' };
 
 axios.post(apiUrl, requestBody, { headers })
     .then(response => {
-        console.log('Resposta da criação da sessão:', response.data);
+        console.log('Session creation response:', response.data);
     })
     .catch(error => {
-        console.error('Erro ao criar a sessão:', error);
+        console.error('Error creating session:', error);
     });
