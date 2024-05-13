@@ -12,7 +12,36 @@ const apiUrl = `https://generative-api.verbeux.com.br/session/${id}`;
 const requestBody = { "assistant_id": process.env.ASSISTANT_ID };
 const headers = { 'Api-Key': apiKey, 'Content-Type': 'application/json' };
 
-// Your web app's Firebase configuration
+// Mock msg
+const um = 'Quero avaliar'
+const dois = '10';
+const msg = {
+    message: um,
+    context: {}
+};
+
+
+axios.put(apiUrl, msg, { headers })
+    .then(response => {
+        // Verifica se a resposta contém um objeto 'response' e se 'response.data' é uma matriz com pelo menos um elemento
+        if (response.data && Array.isArray(response.data.response) && response.data.response.length > 0) {
+            const responseData = response.data.response[0].data; // Acessa o objeto dentro de 'response.data'
+            const notaAvaliacao = responseData.args;
+            const conversationId = response.data.id;
+            console.log('ID da conversa:', conversationId);
+            console.log('Objeto dentro do campo data:[0]', responseData);
+            console.log('Nota avaliação: ', notaAvaliacao)
+
+        } else {
+            console.log('Não foi possível encontrar o objeto de resposta desejado na resposta do servidor.');
+        }
+    })
+    .catch(error => {
+        console.log('Erro ao enviar mensagem: ', error)
+    });
+
+
+// Web app's Firebase configuration
 const firebaseConfig = {
     apiKey: process.env.APIKEY_FIREBASE,
     authDomain: process.env.AUTHDOMAIN_FIREBASE,
@@ -40,20 +69,3 @@ const addFeedback = async () => {
         console.error("Error adding document: ", e);
     }
 };
-
-// addFeedback();
-
-// Mock msg
-const msg = {
-    message: "Test",
-    context: {}
-};
-
-axios.put(apiUrl, msg, { headers })
-    .then(response => {
-        console.log('PUT Request response: ', response.data)
-    })
-    .catch(error => {
-        console.log('Error sending message: ', error)
-    });
-
