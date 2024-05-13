@@ -10,8 +10,8 @@ node_modules/
 # Ignorar arquivos de bloqueio
 *.lock
 
-# Ignorar o arquivo rembember.md
+# Ignorar o arquivo remember.md
 remember.md
 
-# Ignorar o arquivo fluxoTry.js
-fluxoTry.js
+# Ignorar o arquivo README.MD -> Está sendo construido
+README.md
