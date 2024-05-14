@@ -15,3 +15,6 @@ remember.md
 
 # Ignorar o arquivo README.MD -> Está sendo construido
 README.md
+
+# Ignorar a pasta images
+images/
