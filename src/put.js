@@ -20,7 +20,7 @@ const four = "I would like to evaluate the company, with a rating of 3 and havin
 const five = "I would like to evaluate the company, with a rating of 1 and having an opinion that it is very bad!";
 
 const msg = {
-    message: one,
+    message: three,
     context: {}
 };
 
@@ -61,9 +61,7 @@ const setResponse = (conversationId, feedbackFinal, opinionReport) => {
     let notaFeedback = parseInt(feedbackFinal);
     if (notaFeedback <= 5) {
         isGood = false;
-    } else {
-        isGood = true;
-    }
+    } else { isGood = true; }
 
     addFeedback(conversationId, feedbackFinal, opinionReport, isGood);
 };
