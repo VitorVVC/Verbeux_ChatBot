@@ -5,4 +5,4 @@ O Firebase é uma plataforma de desenvolvimento de aplicativos móveis e web des
 
 ## Houve algum erro ?
 Caso haja dificuldade na instalação e conexão do Firebase com o projeto, segue link de um video para ajuda-lo:
-[Video Suporte para Firebase]()
+[Video Suporte para Firebase](https://drive.google.com/file/d/1iagTbvSkXcW84PFgAkbP_bqQOeDZ_asJ/view?usp=sharing)

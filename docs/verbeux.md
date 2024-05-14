@@ -10,5 +10,5 @@ A verbeux é uma plataforma de chatbots, integrado com IA, estes chats podem aju
 
 ## Houve algum erro ?
 Caso haja dificuldade na instalação e conexão do Firebase com o projeto, segue link de um video para ajuda-lo:
-[Video Suporte para Verbeux]()
+[Video Suporte para Verbeux](https://drive.google.com/file/d/1dqiZjSD3VYs0oDXD7df8oLy3Gof88Ld_/view?usp=sharing)
 
