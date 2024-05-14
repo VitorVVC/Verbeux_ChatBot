@@ -59,6 +59,8 @@ npm install
 ```
 
 ## Ajuda
-Caso precise de ajuda, possuo videos atrelados a este repositorio sobre o firebase e também a plataforma da verbeux. Caso mesmo assim você esteja com dificuldade de rodar o projeto, faço o convite de me chamar em meu Linkedin, estou sempre de olho por lá e devo lhe responder rapidamente.[Linkedin](https://www.linkedin.com/in/vitor-cardoso-3a550326a/).
+Caso precise de ajuda, possuo videos atrelados a este repositorio sobre o firebase e também a plataforma da verbeux. Caso mesmo assim você esteja com dificuldade de rodar o projeto, faço o convite de me chamar em meu Linkedin, estou sempre de olho por lá e devo lhe responder rapidamente.
+- [Videos](https://drive.google.com/drive/folders/13IEMd8G-0p4FOjLBHbCBAA9pqlEhdDcb?usp=sharing)
+- [Linkedin](https://www.linkedin.com/in/vitor-cardoso-3a550326a/).
 
 Caso encontre algum erro, bug ou comportamento incorreto, sinta-se a vontade para dar um fork e corrigi-los. Forte abraço!
