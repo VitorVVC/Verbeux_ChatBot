@@ -13,8 +13,5 @@ node_modules/
 # Ignorar o arquivo remember.md
 remember.md
 
-# Ignorar o arquivo README.MD -> Está sendo construido
-README.md
-
 # Ignorar a pasta images
 images/
