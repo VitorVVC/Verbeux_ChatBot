@@ -1,6 +1,7 @@
 # Verbeux 
 
 ## Oque Verbeux
+A verbeux é uma plataforma de chatbots, integrado com IA, estes chats podem ajudar o seu negócio ou resolver alguma problemática a qual você encontre.
 
 ## Funções
 
@@ -8,4 +9,6 @@
 
 
 ## Houve algum erro ?
+Caso haja dificuldade na instalação e conexão do Firebase com o projeto, segue link de um video para ajuda-lo:
+[Video Suporte para Verbeux]()
 
